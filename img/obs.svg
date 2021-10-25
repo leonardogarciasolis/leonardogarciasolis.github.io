@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="57.913" height="57.913" viewBox="0 0 57.913 57.913">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.5" gradientTransform="translate(0)" gradientUnits="objectBoundingBox">
+      <stop offset="0.99" stop-opacity="0.502"/>
+      <stop offset="1" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-2" cx="0.5" cy="0.5" r="0.5" gradientTransform="translate(0)" gradientUnits="objectBoundingBox">
+      <stop offset="0.99" stop-color="#fff"/>
+      <stop offset="0.995" stop-color="#fdfdfd"/>
+      <stop offset="0.997" stop-color="#f6f6f6"/>
+      <stop offset="0.998" stop-color="#ebebeb"/>
+      <stop offset="0.999" stop-color="#dadada"/>
+      <stop offset="1" stop-color="#c7c7c7"/>
+    </radialGradient>
+    <clipPath id="clip-path">
+      <path id="SVGID" d="M67.938,94.446A26.447,26.447,0,1,0,94.384,68,26.446,26.446,0,0,0,67.938,94.446" transform="translate(-67.938 -68)" fill="url(#radial-gradient)"/>
+    </clipPath>
+    <radialGradient id="radial-gradient-4" cx="0.5" cy="0.5" r="0.5" xlink:href="#radial-gradient"/>
+    <clipPath id="clip-path-2">
+      <path id="Path_2862" data-name="Path 2862" d="M71.6,97.893A26.228,26.228,0,1,0,97.831,71.665,26.228,26.228,0,0,0,71.6,97.893" transform="translate(-71.603 -71.665)" fill="none"/>
+    </clipPath>
+    <radialGradient id="radial-gradient-5" cx="0.5" cy="0.5" r="0.5" gradientTransform="matrix(1, 0, 0, -1, 0, 2.22)" gradientUnits="objectBoundingBox">
+      <stop offset="0"/>
+      <stop offset="1" stop-color="#322f32"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-6" cx="0.5" cy="0.5" r="0.478" gradientTransform="translate(-0.049 -0.049) scale(1.097 1.097)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#c2c0c2"/>
+      <stop offset="1" stop-color="#ebebeb"/>
+    </radialGradient>
+  </defs>
+  <g id="obs" transform="translate(-7.786 -5.848)">
+    <path id="Path_2861" data-name="Path 2861" d="M54.743,25.849A28.956,28.956,0,1,1,25.786,54.8,28.956,28.956,0,0,1,54.743,25.849" transform="translate(-18 -20)" fill="url(#radial-gradient-2)"/>
+    <path id="SVGID-2" data-name="SVGID" d="M67.938,94.446A26.447,26.447,0,1,0,94.384,68,26.446,26.446,0,0,0,67.938,94.446" transform="translate(-57.641 -59.641)" fill="url(#radial-gradient)"/>
+    <g id="Group_136" data-name="Group 136" transform="translate(10.296 8.359)" clip-path="url(#clip-path)">
+      <rect id="Rectangle_261" data-name="Rectangle 261" width="52.893" height="52.893" transform="translate(0)" fill="url(#radial-gradient-4)"/>
+    </g>
+    <g id="Group_137" data-name="Group 137" transform="translate(10.515 8.577)" clip-path="url(#clip-path-2)">
+      <rect id="Rectangle_262" data-name="Rectangle 262" width="52.457" height="52.456" transform="translate(0 0)" fill="url(#radial-gradient-5)"/>
+    </g>
+    <path id="Path_2863" data-name="Path 2863" d="M268.084,119.3a11.864,11.864,0,0,1-16.509,4.2,12.073,12.073,0,0,1-2.674-2.249,11.845,11.845,0,0,1-2.971-8.4c.017-.345.046-.689.091-1.031s.1-.673.177-1,.166-.677.271-1.01.219-.643.349-.957.286-.646.449-.96c.172-.33.362-.652.565-.964q.281-.432.6-.837c.23-.295.473-.579.731-.85s.531-.535.814-.784.59-.491.9-.716q.241-.174.49-.334a14.553,14.553,0,0,0-6.5,19.263q.049.1.1.2l.046.091a.273.273,0,0,0,.028.055c.019.021.024.018.054.017.154,0,.307,0,.461,0q.425.009.85.049a11.87,11.87,0,0,1,7.9,19.555,12.04,12.04,0,0,1-2.964,2.488,11.9,11.9,0,0,1-7.393,1.578,12.09,12.09,0,0,1-1.382-.24c-.3-.069-.587-.151-.876-.242a14.446,14.446,0,0,0,4.082,1.13,14.71,14.71,0,0,0,3.955-.048,14.5,14.5,0,0,0,6.471-2.673,14.651,14.651,0,0,0,3.557-3.756q.062-.094.123-.19c.016-.025.051-.064.046-.09a.5.5,0,0,0-.063-.116q-.119-.224-.229-.452-.22-.459-.4-.937a11.789,11.789,0,0,1-.556-1.987,11.961,11.961,0,0,1,0-4.405,11.879,11.879,0,0,1,11.579-9.665q.437,0,.873.025.421.028.839.084t.823.143q.4.085.8.2t.765.245q.384.138.757.3t.748.36q.367.193.721.411c.221.137.439.28.65.432s.431.319.639.489.422.358.623.548.421.411.62.629.388.44.57.671c.2.257.4.522.575.8s.36.569.521.864a11.927,11.927,0,0,1,.6,1.272,12.323,12.323,0,0,1,.475,1.451,14.557,14.557,0,0,0-13.258-12.608Q268.339,119.309,268.084,119.3Z" transform="translate(-221.049 -92.925)" fill="url(#radial-gradient-6)"/>
+  </g>
+</svg>
