@@ -240,14 +240,45 @@ outline: none;
 .about{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    padding: 250px 8%;
+    padding: 250px 8% 100px 8%;
+    align-items: center;
 }
 
-.about-content{
-    width: 40%;
-
+.about-right{
+    position: relative;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    
+    
+  
 }
+
+.about-left{
+    position: relative;
+    
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+      
+}
+
+.carousel-imagen-item{
+    
+    margin-top: -200px;
+    list-style-type: none;
+    position: absolute;   
+    opacity: 0;
+}
+
+.carousel-imagen-item-contenido{
+    width: 100%;
+}
+
+.img123{
+    width: 80%;
+}
+
 
 .maintitle{
     font-size: 48px;
@@ -264,33 +295,9 @@ outline: none;
     margin-top: 20px;
 }
 
-.about-texto{
-    position: relative;
-    color: #707070;
-    margin-top: 124px;
-    line-height: 35px;
-    z-index: -5;
-}
 
-.read{
-    background-color: transparent;
-    height: 100px;
-    display: flex;
-    flex-direction: row;
-    gap: 12px;
-    margin-top: 20px;
-    cursor: pointer;
-    z-index: 1;
 
-    
-}
-.readmore{
-    
-    color: #4782E2;
-    cursor: pointer;
-    z-index: -2;
-    transition: all ease-out 0.3s;
-}
+
 
 .flecha{
     margin-top: 5px;
@@ -311,12 +318,12 @@ position: relative;
  flex-direction: row;
  gap: 20px;
  width: 100%;
- margin-top: 20px;
+ margin-top: 80px;
        
 }
 
-.about-info-texto{
-    margin-top: 20px;
+.about-info-text{
+    margin-top: -18px;
 }
 
 .titleasd{
@@ -327,28 +334,7 @@ position: relative;
     font-size: 16px;
     color: #707070;
 }
-.about__readmore{
-    position: relative;
-    display: block;
-    opacity: 0;
-    height: 0px;
-    transition: all 0.5s;
-    top: -450px;
-   
-}
 
-.about__readmore--open{
-    position: relative;
-    display: block;
-    opacity: 1;
-    top: 0px;
-    height: 530px;
-
-}
-
-.read:hover .readmore{
-    opacity: 0.5;
-}
 
 .read:hover .flecha{
     opacity: 0.5;
@@ -439,6 +425,7 @@ position: relative;
 }
 .servicios-content{
     display: flex;
+    
     justify-content: center;
     flex-direction: column;
     align-items: center;
@@ -455,7 +442,9 @@ position: relative;
 }
 .tarjetas{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
+    justify-content: center;
     gap: 28px;
     
 }
@@ -529,37 +518,41 @@ position: relative;
 .project{
     display: flex;
     flex-direction: row;
-    width: 60%;
+    width: 910px;
     background-color: white ;
     box-shadow: 0px 0px 32px #00000029;
     margin-bottom: 200px;
+    height: 528px;
 }
 
 .project2{
     display: flex;
     flex-direction: row;
-    width: 60%;
+    width: 910px;
     background-color: white ;
     box-shadow: 0px 0px 32px #00000029;
     margin-bottom: 200px;
+    height: 528px;
 }
 
 .project3{
     display: flex;
     flex-direction: row;
-    width: 60%;
+    width: 910px;
     background-color: white ;
     box-shadow: 0px 0px 32px #00000029;
     margin-bottom: 200px;
+    height: 528px;
 }
 
 .project4{
     display: flex;
     flex-direction: row;
-    width: 60%;
+    width: 910px;
     background-color: white ;
     box-shadow: 0px 0px 32px #00000029;
     margin-bottom: 200px;
+    height: 528px;
 }
 
 
@@ -568,7 +561,8 @@ position: relative;
 .project-content{
     display: flex;
     flex-direction: column;
-    padding: 55px 85px 40px 85px;
+    padding: 40px 85px 40px 85px;
+    height: fit-content;
 }
 
 .project-title{
@@ -582,7 +576,7 @@ position: relative;
 }
 
 .project-content button{
-    margin-top: 55px;
+    margin-top: 40px;
 }
 
 /* PRIMER PROYECTO */
@@ -595,6 +589,7 @@ position: relative;
     border-radius: 10px;
     opacity: 1;
     color: white;
+    cursor: pointer;
     transition: all ease-out 0.2s;
     
     outline: 0;
@@ -626,6 +621,7 @@ position: relative;
     border-radius: 10px;
     opacity: 1;
     color: white;
+    cursor: pointer;
     transition: all ease-out 0.2s;
     
     outline: 0;
@@ -652,12 +648,13 @@ position: relative;
     width: 175px;
     height: 56px;
     border: 2px solid transparent ;
-    background: transparent linear-gradient(270deg, #000096 0%, #0F81BB 100%) 0% 0% no-repeat padding-box;
+    background: transparent linear-gradient(270deg, #7F46F1 0%, #00F1B2 100%) 0% 0% no-repeat padding-box;
     box-shadow: inset 0 0 0 0 white; 
     border-radius: 10px;
     opacity: 1;
     color: white;
     transition: all ease-out 0.2s;
+    cursor: pointer;
     
     outline: 0;
     
@@ -666,14 +663,14 @@ position: relative;
     .boton3:hover{
         box-shadow: inset 175px 0 0 0 white; 
         color: var(--black);
-        border: 2px solid #000096;
+        border: 2px solid #7F46F1;
         
     }
 
     .raya3{
         width: 116px;
         height: 4px;
-        background-color: #000096;
+        background: linear-gradient(90deg, #7F46F1 0%, #00F1B2 100%);
         margin-top: 20px;
         
     }
@@ -687,6 +684,7 @@ position: relative;
     border-radius: 10px;
     opacity: 1;
     color: white;
+    cursor: pointer;
     transition: all ease-out 0.2s;
     
     outline: 0;
@@ -719,7 +717,7 @@ position: relative;
     padding: 100px 8% 100px 8%;
     align-items: center;
     box-shadow: 0px 0px 32px #00000029;
-    flex-wrap: wrap;
+    
 
 }
 
@@ -847,6 +845,146 @@ position: relative;
     opacity: 1;
     pointer-events: auto;
 }
+.about-img{
+    
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+/* CAROUSEL CSS */
+
+
+
+
+.current{
+  
+    opacity: 100;
+}
+
+
+.about-content{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+
+
+}
+.about-texto{
+    
+    position: relative;
+    color: #707070;
+    margin-top: 20px;
+    line-height: 35px;
+    z-index: -5;
+    
+    
+}
+
+
+
+
+
+.carousel-text-container{
+    position: relative;
+    height: 100%;
+    transition: opacity 300ms ease-in;
+ 
+}
+.carousel-text{
+    display:flex;
+    align-items: stretch;
+    position: relative;
+    height: auto;
+    width: 100%;
+    transition: opacity 300ms ease-out;
+}
+
+.carousel-text-item{
+    display:flex;
+    position: absolute;
+    width: 100%;
+    list-style-type: none;
+    color: #707070;
+    line-height: 35px;
+    z-index: -5;
+    
+    opacity: 0;
+}
+.current-text{
+   
+    visibility: visible;
+  opacity: 1;
+  transition: visibility 0s linear 0s, opacity 2000ms;
+}
+
+.current-img{
+   
+    visibility: visible;
+  opacity: 1;
+  transition: visibility 0s linear 0s, opacity 1500ms;
+}
+
+
+
+
+
+
+
+
+
+.paginas{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    color: var(--blue);
+    align-items: center;
+    gap: 58px;
+    margin-top: 80px;
+    width: 100%;
+    height: auto;
+}
+
+.arrow-left{
+    transform: rotate(180deg);
+    margin-top: 5px;
+    cursor: pointer;
+    z-index: -2;
+    transition: all ease-out 0.3s;
+}
+
+.arrow-right{
+    
+    margin-top: 5px;
+    cursor: pointer;
+    z-index: -2;
+    transition: all ease-out 0.3s;
+}
+
+.arrow-left-button{
+  position: relative;
+  z-index: 1;
+}
+.arrow-right-button{
+    position: relative;
+    z-index: 1;
+}
+
+
+
+
+/* RESPONSIVE 1600 */
+
+.hero-img{
+    position: relative;
+    right: 0;
+    z-index: -5;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    
+}
+
 
 
 
